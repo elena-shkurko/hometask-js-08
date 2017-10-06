@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body {
+  background: url(../img/background.jpg) 50% no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif; }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
+
+.ba-game {
+  width: 600px;
+  height: 550px;
+  margin: 145px auto;
+  background-color: #212534; }
+  .ba-game__header {
+    width: 600px;
+    height: 115px;
+    background-color: #2b3040; }
+  .ba-game__list {
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    display: table; }
+    .ba-game__list li {
+      padding: 60px 65px 35px 0;
+      display: table-cell;
+      width: 33%;
+      text-align: center; }
+      .ba-game__list li:hover {
+        border-bottom: 2px solid #fbfbfb; }
+    .ba-game__list a {
+      text-decoration: none;
+      color: #b7bacd; }
+
+.ba-game__item {
+  display: none; }
+
+.ba-game__item--active {
+  display: block; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
